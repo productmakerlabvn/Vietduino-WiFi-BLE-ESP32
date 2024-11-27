@@ -102,27 +102,35 @@ Vietduino ESP32 WROOM-32E connect with the computer
 
 3) Cấu hình mạch trên phần mềm Arduino: Để cấu hình mạch trên phần mềm Arduino chúng ta cần làm các bước sau:
 
-Copy đường link sau và dán vào mục File > Preferences > Additional boards manager URLs (trên Windows) hoặc Arduino IDE > Settings > Additional boards manager URLs (trên MacOS) sau đó nhấn OK:
-<https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json>
+- Copy đường link sau và dán vào mục File > Preferences > Additional boards manager URLs (trên Windows) hoặc Arduino IDE > Settings > Additional boards manager URLs (trên MacOS) sau đó nhấn OK:
+
+    <https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json>
 
 ![](/image/vietesp_05.png)
-Add URL Vietduino ESP32 Board on Arduino
-Tiếp theo chọn Tools > Board > Boards Manager..., tìm từ khoá ESP32 sẽ thấy mục "esp32 by Espressif Systems", nhấn Install và chờ đợi cho đến khi cài đặt hoàn tất:
+
+Add URL Vietduino ESP32 Board on Arduino  
+
+- Tiếp theo chọn Tools > Board > Boards Manager..., tìm từ khoá ESP32 sẽ thấy mục "esp32 by Espressif Systems", nhấn Install và chờ đợi cho đến khi cài đặt hoàn tất:
+
 ![](/image/vietesp_06.png)
+
 Install Vietduino ESP32 Board
-Sau khi cài đặt hoàn tất, tắt và khởi động lại phần mềm Arduino, sau đó thiết lập Board tại Tools > Board > esp32 > ESP32 Dev Module và Port (cổng kết nối) cho mạch, nếu không xác định được cổng kết nối có thể ngắt kết nối mạch và kết nối lại đồng thời kiểm tra phần Port để thấy cổng kết nối mới của mạch xuất hiện:
+
+- Sau khi cài đặt hoàn tất, tắt và khởi động lại phần mềm Arduino, sau đó thiết lập Board tại Tools > Board > esp32 > ESP32 Dev Module và Port (cổng kết nối) cho mạch, nếu không xác định được cổng kết nối có thể ngắt kết nối mạch và kết nối lại đồng thời kiểm tra phần Port để thấy cổng kết nối mới của mạch xuất hiện:
+
 ![](/image/vietesp_07.png)
-Vietduino ESP32 Board and Port
-Các thiết lập mặc định để nạp chương trình của mạch sẽ như hình dưới đây:
-thumb Lưu ý quan trọng!!!:
 
-- Upload Speed với hệ điều hành Windows có thể chọn 912600, với MacOS hoặc các hệ điều hành khác nếu có báo lỗi khi nạp chương trình chọn 115200.
+Vietduino ESP32 Board and Port  
 
-- Flash Size nếu ký hiệu trên Module WROOM-32E là "XXN4" chọn 4MB, nếu ký hiệu là "XX0H28" chọn 16MB.
+> **Các thiết lập mặc định để nạp chương trình của mạch sẽ như hình dưới đây:
+thumb Lưu ý quan trọng!!!:**  
+Upload Speed với hệ điều hành Windows có thể chọn 912600, với MacOS hoặc các hệ điều hành khác nếu có báo lỗi khi nạp chương trình chọn 115200.  
+Flash Size nếu ký hiệu trên Module WROOM-32E là "XXN4" chọn 4MB, nếu ký hiệu là "XX0H28" chọn 16MB.
 
 ![](/image/vietesp_08.png)
-Vietduino ESP32 Board Default Configuration
-Sau khi đã hoàn thành các thiết lập cơ bản bạn có thể nạp chương trình Blink sau vào mạch để test bằng cách nhấn vào nút Upload hoặc chọn Sketch > Upload sẽ thấy Led được kết nối với chân IO18 trên mạch chớp tắt 1 giây 1 lần:
+Vietduino ESP32 Board Default Configuration  
+
+- Sau khi đã hoàn thành các thiết lập cơ bản bạn có thể nạp chương trình Blink sau vào mạch để test bằng cách nhấn vào nút Upload hoặc chọn Sketch > Upload sẽ thấy Led được kết nối với chân IO18 trên mạch chớp tắt 1 giây 1 lần:
 
 ```ino
 /*
@@ -148,6 +156,7 @@ void loop() {
 Upload Blink on Vietduino ESP32
 
 ## Nhà phân phối
+
 Có thể mua Mạch Vietduino Wifi BLE ESP32 tại các nhà phân phối sau:
 
 - [Hshop.vn - Điện tử & Robot.](hshop.vn)
