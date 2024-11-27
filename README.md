@@ -104,7 +104,7 @@ Vietduino ESP32 WROOM-32E connect with the computer
 
 - Copy đường link sau và dán vào mục File > Preferences > Additional boards manager URLs (trên Windows) hoặc Arduino IDE > Settings > Additional boards manager URLs (trên MacOS) sau đó nhấn OK:
 
-    <https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json>
+      https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 
 ![](/image/vietesp_05.png)
 
