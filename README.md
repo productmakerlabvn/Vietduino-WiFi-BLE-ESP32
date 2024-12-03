@@ -159,4 +159,4 @@ Upload Blink on Vietduino ESP32
 
 Có thể mua Mạch Vietduino Wifi BLE ESP32 tại các nhà phân phối sau:
 
-- [Hshop.vn - Điện tử & Robot.](hshop.vn)
+- [Hshop.vn - Điện tử & Robot.](https://hshop.vn)
