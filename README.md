@@ -78,19 +78,7 @@ Vietduino Wifi BLE ESP32 Front and Back
 
 ## Hướng dẫn sử dụng với phần mềm Arduino
 
-### Hướng dẫn sử dụng phần mềm Arduino cơ bản
-
-1) Giới thiệu về Arduino
-
-2) Ngôn ngữ lập trình Arduino
-
-3) Cách cài đặt phần mềm Arduino IDE
-
-4) Cách cài đặt Driver và nạp chương trình cho mạch Arduino / Arduino Compatible
-
-5) Cách cài đặt các thư viện phần cứng Arduino Library
-
-6) Cách sử dụng Serial Monitor & Serial Plotter trên phần mềm Arduino
+[Hướng dẫn sử dụng, cài đặt phần mềm, Driver CH340, bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
 
 Hướng dẫn kết nối và nạp chương trình cho Mạch Vietduino Wifi BLE ESP32 trên phần mềm Arduino:
 
